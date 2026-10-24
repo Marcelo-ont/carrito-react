@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  background: white;
+  color: #171717;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid #e5a500;
+  outline-offset: 3px;
+}
